@@ -1,0 +1,29 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Kubernetes cluster pod security restricted standards for Linux-based workloads",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/42b8ef37-b724-4e24-bbc8-7a7708edfe00",
+  "scope": "/subscriptions/63e68764-6c1e-4010-a6bf-0c967f06188c",
+  "notScopes": [],
+  "parameters": {
+   "effect": {
+    "value": "deny"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "createdBy": "6155fea6-4435-448c-ba44-7ff55f48bbbb",
+   "createdOn": "2022-04-30T22:27:50.4602912Z",
+   "updatedBy": "6155fea6-4435-448c-ba44-7ff55f48bbbb",
+   "updatedOn": "2022-05-01T00:11:51.9819617Z",
+   "parameterScopes": {}
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/63e68764-6c1e-4010-a6bf-0c967f06188c/providers/Microsoft.Authorization/policyAssignments/az-cli-k8s-set-of-policy1-63e68764-6c1e-4010-a6bf-0c967f06188c",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "az-cli-k8s-set-of-policy1-63e68764-6c1e-4010-a6bf-0c967f06188c"
+}
